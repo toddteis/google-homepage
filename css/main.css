@@ -1,3 +1,7 @@
-body {
-    background: cornsilk;
+body, html {
+    font-size: small;
+}
+
+.center {
+    text-align: center;
 }
