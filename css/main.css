@@ -5,3 +5,13 @@ body, html {
 .center {
     text-align: center;
 }
+
+.main_wrapper {
+    padding-top: 200px;
+}
+
+.search_area {
+    border: none;
+    margin: 20px;
+    padding: 5px;
+}
