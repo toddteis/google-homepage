@@ -1,5 +1,29 @@
 body, html {
     font-size: small;
+    color: #222;
+    font-family: arial, sans-serif;
+}
+
+nav {
+    height: 60px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:6px;
+    text-decoration: none;
+}
+
+.nav-left {
+    font-size: 14px;
+    padding: 5px;
+}
+
+.app-icon {
+    padding-top:
+}
+
+li {
+    display: inline;
 }
 
 .center {
@@ -15,3 +39,4 @@ body, html {
     margin: 20px;
     padding: 5px;
 }
+
