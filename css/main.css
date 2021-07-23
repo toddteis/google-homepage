@@ -43,3 +43,35 @@ li {
     padding: 5px;
 }
 
+.footer-wrapper-outter {
+    position: fixed;
+    left:0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-wrapper {
+    background:#f2f2f2;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    border-top: 1px solid #e4e4e4;
+}
+
+.footer-item {
+    display: inline;
+    font-size: 14px;
+    padding-right: 23px;
+    color: #5f6368;
+}
+
+.footer-item-first-left {
+    padding-left: 30px;
+}
+
+.footer-item-first-right {
+    padding-right: 30px;
+}
