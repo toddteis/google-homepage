@@ -2,27 +2,70 @@ body, html {
     font-size: small;
     color: #222;
     font-family: arial, sans-serif;
+    background: white;
 }
 
 nav {
-    height: 60px;
+    height: 48px;
     display:flex;
     justify-content: space-between;
     align-items: center;
     padding:6px;
     text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.75;
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
 }
 
 .nav-left {
-    font-size: 14px;
-    padding: 5px;
+    
+    padding-left: 19px;
+}
+
+.nav-left li {
+    padding-right: 15px;
+}
+
+.nav-right {
+    padding-right: 24px;
+}
+
+.nav-right li {
+    padding-left: 13px;
+}
+
+.btn-sign-in {
+    border-color: #4285f4;
+    background-color: #4285f4;
+    font-family: Arial, sans-serif;
+    color: white;
+    font-weight: 700;
+    border-radius: 3px;
+    border-width: 1px;
+    line-height: 28px;
+    width: 69px;
+    height: 30px;
+    border-style: none;
 }
 
 .app-icon {
-    color: #5f6368;
     height: 25px;
     width: 25px;
     vertical-align: middle;
+    color: black;
+    opacity: 0.75;
+}
+
+.app-icon:hover {
+    opacity: 1;
 }
 
 li {
