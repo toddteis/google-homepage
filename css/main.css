@@ -76,8 +76,11 @@ li {
     text-align: center;
 }
 
-.logo-wrapper {
+.logo {
     padding-top: 137px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 main {
