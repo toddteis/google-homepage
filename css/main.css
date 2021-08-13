@@ -179,7 +179,15 @@ footer li {
   display: inline;
   font-size: 14px;
   padding-right: 23px;
+}
+
+footer li a {
+  text-decoration: none;
   color: #5f6368;
+}
+
+footer li a:hover {
+  text-decoration: underline;
 }
 
 .footer-left li:nth-child(1) {
