@@ -15,13 +15,13 @@ nav {
     font-size: 13px;
 }
 
-.nav-item a {
+nav li a {
     text-decoration: none;
     color: black;
     opacity: 0.75;
 }
 
-.nav-item a:hover {
+nav li a:hover {
     text-decoration: underline;
 }
 
